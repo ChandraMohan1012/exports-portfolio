@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
+    <title>404 - Page Not Found | CM Trading & Exports</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            background: var(--bg);
+        }
+        .error-content {
+            text-align: center;
+            max-width: 600px;
+        }
+        .error-code {
+            font-family: var(--font-head);
+            font-size: 8rem;
+            font-weight: 900;
+            color: var(--saffron);
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        .error-title {
+            font-family: var(--font-head);
+            font-size: 2rem;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.1rem;
+            color: var(--grey-1);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+        .error-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .error-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .error-btn-primary {
+            background: var(--saffron);
+            color: #fff;
+        }
+        .error-btn-primary:hover {
+            background: var(--saffron-dim);
+            transform: translateY(-2px);
+        }
+        .error-btn-secondary {
+            background: transparent;
+            color: var(--grey-1);
+            border: 1px solid var(--border-light);
+        }
+        .error-btn-secondary:hover {
+            border-color: var(--saffron);
+            color: var(--saffron);
+        }
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 6rem;
+            }
+            .error-title {
+                font-size: 1.5rem;
+            }
+            .error-links {
+                flex-direction: column;
+            }
+            .error-btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-content">
+            <div class="error-code">404</div>
+            <h1 class="error-title">Page Not Found</h1>
+            <p class="error-message">
+                The page you're looking for doesn't exist or has been moved. 
+                Let's get you back on track to explore our premium export products.
+            </p>
+            <div class="error-links">
+                <a href="../index.html" class="error-btn error-btn-primary">
+                    <i class="fas fa-home"></i> Back to Home
+                </a>
+                <a href="../index.html#products" class="error-btn error-btn-secondary">
+                    <i class="fas fa-box"></i> View Products
+                </a>
+                <a href="../index.html#contact" class="error-btn error-btn-secondary">
+                    <i class="fas fa-envelope"></i> Contact Us
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

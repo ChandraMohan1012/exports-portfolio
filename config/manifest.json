@@ -1,0 +1,19 @@
+{
+  "name": "CM Trading & Exports",
+  "short_name": "CM Exports",
+  "description": "Professional export sourcing services from Erode, India. Premium turmeric, Indian spices, and industrial plastic storage solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B1D3A",
+  "theme_color": "#0B1D3A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "export", "trading"]
+}
