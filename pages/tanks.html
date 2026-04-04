@@ -33,9 +33,17 @@
         .gallery-title{font-family:var(--font-head);font-size:1.25rem;font-weight:700;color:var(--dark);margin-bottom:1.2rem;display:flex;align-items:center;gap:.6rem}
         .gallery-title::after{content:'';flex:1;height:1px;background:var(--border)}
         .gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;margin-bottom:2.5rem;align-items:stretch}
-        .gallery-item{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .2s,border-color .2s,box-shadow .2s;display:flex;flex-direction:column;height:100%}
+        .gallery-item{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .2s,border-color .2s,box-shadow .2s;display:flex;flex-direction:column}
         .gallery-item:hover{transform:translateY(-5px);border-color:var(--saffron);box-shadow:0 10px 30px rgba(26,95,196,.1)}
-        .gallery-item img{width:100%;height:260px;object-fit:contain;object-position:center center;display:block;background:linear-gradient(180deg,#f4f7fc 0%,#edf2fa 100%);padding:.5rem}
+        .gallery-item img{
+            width:100%;
+            height:400px;
+            object-fit:contain;
+            object-position:center center;
+            display:block;
+            background:#f4f7fc;
+            padding:0;
+        }
         .gallery-caption{padding:1rem 1.2rem;background:var(--bg-alt);flex:1;display:flex;flex-direction:column;gap:.35rem}
         .gallery-caption h3{font-family:var(--font-head);font-size:.97rem;color:var(--dark);margin-bottom:0}
         .gallery-caption p{color:var(--grey-1);font-size:.82rem;line-height:1.55;margin:0}
@@ -201,14 +209,14 @@
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../images/Drums%20%26%20Tanks/Tanks/ChatGPT%20Image%20Feb%2025%2C%202026%2C%2012_54_16%20PM.png" alt="Premium Plastic Storage Tank" loading="lazy">
+                    <img src="../images/Drums%20%26%20Tanks/Tanks/hm.png" alt="Premium Plastic Storage Tank" loading="lazy">
                     <div class="gallery-caption">
                         <h3>Premium Storage Tanks</h3>
                         <p>ISI-certified food-grade plastic tanks suitable for drinking water and liquid storage.</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="../images/Drums%20%26%20Tanks/Tanks/file_000000004a747206ab3a517ae555cadd.png" alt="Custom Plastic Tank Design" loading="lazy">
+                    <img src="../images/Drums%20%26%20Tanks/Tanks/vc.png" alt="Custom Plastic Tank Design" loading="lazy">
                     <div class="gallery-caption">
                         <h3>Custom-Capacity Tanks</h3>
                         <p>Bespoke tank solutions engineered to your dimensional and capacity specifications.</p>
